@@ -84,13 +84,16 @@ img {
 }
 
 /* BLOCCO STEPS */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
     float: none;
-    width: 50%;
     margin: auto;
+  }
+  #steps .row,
+  #why .row{
+   background-color: #f9f9f9;
   }
 }
 
@@ -98,8 +101,7 @@ img {
 @media screen and (max-width: 480px) {
   #why .row>.first,
   #why .row>.second,
-  #why .row>.third{
-    width: 50%;
+  #why .row>.third,{
     margin: auto;
   }
 }
