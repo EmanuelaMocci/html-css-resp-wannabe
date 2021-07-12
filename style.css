@@ -84,7 +84,7 @@ img {
 }
 
 /* BLOCCO STEPS */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
@@ -92,16 +92,45 @@ img {
     margin: auto;
   }
   #steps .row,
-  #why .row{
-   background-color: #f9f9f9;
+  .container.grey{
+    background-color: transparent;
   }
 }
 
 /* BLOCCO PERCHE */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   #why .row>.first,
   #why .row>.second,
-  #why .row>.third,{
+  #why .row>.third{
     margin: auto;
+  }
+  #lezioni .row,
+  #why .row{
+   background-color:lavenderblush;
+  }
+}
+
+/* Visualizzazione tablet */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  #lezioni .row{
+    background-color: seashell;
+  }
+  #steps .row{
+    background-color: snow;
+  }
+  #why .row h1{
+    background-color:papayawhip;
+  }
+  #why .row .first{
+   background-color:rosybrown;
+  }
+  #why .row .second{
+    background-color: peachpuff;
+  }
+  #why .row .third{
+    background-color: rosybrown;
+  }
+  .container.grey{
+    background-color: transparent;
   }
 }
