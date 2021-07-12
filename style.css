@@ -83,8 +83,7 @@ img {
      background-color: green;
    }
    h1{
-     display: flex;
-    
+     margin-right: 50%;
    }
 }
 
