@@ -103,7 +103,6 @@ img {
   #why .row>.second,
   #why .row>.third{
     margin: auto;
-    overflow-x: hidden;
   }
   #lezioni .row,
   #why .row{
@@ -133,5 +132,8 @@ img {
   }
   .container.grey{
     background-color: transparent;
+  }
+  .row{
+    width: 100%;
   }
 }
