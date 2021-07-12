@@ -88,14 +88,12 @@ img {
 }
 
 @media screen and (max-width: 480px){
-  #why .row>.first{
-
-  }
-  #why .row>.second{
-
-  }
-  #why .row>.third{
-
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    float: none;
+    width: 50%;
+    background-color: pink;
   }
 }
 
