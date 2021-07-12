@@ -103,6 +103,7 @@ img {
   #why .row>.second,
   #why .row>.third{
     margin: auto;
+    overflow-x: hidden;
   }
   #lezioni .row,
   #why .row{
