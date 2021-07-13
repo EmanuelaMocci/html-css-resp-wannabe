@@ -107,11 +107,20 @@ img {
   #lezioni .row,
   #why .row{
    background-color:lavenderblush;
+   padding: 20px 0;
+  }
+  img{
+    margin-top: 30px;
   }
 }
 
 /* Visualizzazione tablet */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
+  #lezioni .row, 
+  #steps .row, 
+  #why .row{
+    padding: 20px 0;
+  }
   #lezioni .row{
     background-color: seashell;
   }
